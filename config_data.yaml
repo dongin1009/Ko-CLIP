@@ -1,0 +1,10 @@
+vizwiz : True
+train_coco_img_dir : '/workspace/data/mscoco_kor'
+train_coco_annotation_file : '/workspace/data/mscoco_kor/MSCOCO_train_Korean.json'
+valid_coco_img_dir : '/workspace/data/mscoco_kor'
+valid_coco_annotation_file : '/workspace/data/mscoco_kor/MSCOCO_valid_Korean.json'
+
+train_vizwiz_img_dir : '/workspace/data/vizwiz/train'
+train_vizwiz_annotation_file : '/workspace/data/vizwiz/vizwiz_train_Korean.json'
+valid_vizwiz_img_dir : '/workspace/data/vizwiz/val'
+valid_vizwiz_annotation_file : '/workspace/data/vizwiz/vizwiz_valid_Korean.json'

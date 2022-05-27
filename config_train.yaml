@@ -1,0 +1,24 @@
+per_gpu_train_batch_size : 256
+# 112: vit 79G 
+# 256: rn101 79G
+per_gpu_eval_batch_size : 64 # not used in CLIP training
+n_gpu : 1
+num_workers : 0
+num_train_epochs : 33 # number of epochs to train
+
+gradient_accumulation_steps : 1 # Number of updates steps to accumulate before backward
+
+logging_steps : 50 #  log every this steps
+save_steps : 1000
+
+saved_checkpoints : saved_checkpoints/new_plm_rn101
+logs : logs
+
+optimizer:
+  params:
+    eps: 1.0e-08
+    lr: 5e-5 #5e-4: origin but lower lr make converging loss
+    weight_decay: 0.1
+  type: AdamW
+
+wandb: False
