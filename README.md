@@ -1,5 +1,5 @@
 # Ko-CLIP
-This repository contains code to train Korean [CLIP](https://github.com/openai/CLIP) on [MS-COCO](https://cocodataset.org/#home) with Korean annotations in [AI-HUB](https://aihub.or.kr/keti_data_board/visual_intelligence). Additionally, to get more Korean annotations, we use [Naver Papago translator](https://papago.naver.com/) from English to Korean on [VizWiz](https://vizwiz.org/tasks-and-datasets/image-captioning/) data.
+This repository contains code to train Korean [CLIP](https://github.com/openai/CLIP) on [MS-COCO](https://cocodataset.org/#home) with Korean annotations in [AI-HUB](https://aihub.or.kr/aihubdata/data/view.do?currMenu=120&topMenu=100&aihubDataSe=extrldata&dataSetSn=261). Additionally, to get more Korean annotations, we use [Naver Papago translator](https://papago.naver.com/) from English to Korean on [VizWiz](https://vizwiz.org/tasks-and-datasets/image-captioning/) data.
 
 ### Pretrained Model
 The original CLIP has large-scaled dataset however ours dataset is much less than CLIP's. Due to lack Korean caption data, we use pretrained language and visual model to get representations on less dataset. 
